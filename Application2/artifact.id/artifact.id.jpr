@@ -75,15 +75,10 @@
       <string v="oracle.tip.tools.ide.ess.addin.ESSContentSetProvider/ess-content"/>
       <string v="oracle.jdeveloper.model.PathsConfiguration/cepContentSet"/>
    </list>
-   <value n="defaultPackage" v="project1"/>
+   <value n="defaultPackage" v="group.id"/>
    <hash n="oracle.ide.model.TechnologyScopeConfiguration">
       <list n="technologyScope">
-         <string v="Maven"/>
          <string v="SOA"/>
-         <string v="WSDL"/>
-         <string v="WSPolicy"/>
-         <string v="XML"/>
-         <string v="XML_SCHEMA"/>
       </list>
    </hash>
    <hash n="oracle.jdeveloper.compiler.OjcConfiguration">
@@ -108,12 +103,16 @@
          <string v=".xsl"/>
          <string v=".exm"/>
          <string v=".xml"/>
+         <string v=".exm"/>
+         <string v=".xml"/>
+         <string v=".exm"/>
+         <string v=".xml"/>
       </list>
       <value n="webIANAEncoding" v="windows-1252"/>
    </hash>
    <hash n="oracle.jdeveloper.deploy.dt.DeploymentProfiles">
       <hash n="profileDefinitions">
-         <hash n="Project1">
+         <hash n="artifact.id">
             <hash n="archiveOptions">
                <value n="hasManifest" v="false"/>
             </hash>
@@ -200,21 +199,21 @@
                   </hash>
                </list>
             </hash>
-            <url n="jarURL" path="deploy/sca_Project1.jar"/>
+            <url n="jarURL" path="deploy/sca_artifact.id.jar"/>
             <value n="profileClass" v="oracle.tip.tools.ide.fabric.deploy.sar.SarProfile"/>
-            <value n="profileName" v="Project1"/>
+            <value n="profileName" v="artifact.id"/>
          </hash>
       </hash>
       <list n="profileList">
-         <string v="Project1"/>
+         <string v="artifact.id"/>
       </list>
    </hash>
    <hash n="oracle.jdeveloper.maven.compiler.MavenConfiguration">
       <url n="pomfileURL" path="pom.xml"/>
    </hash>
    <hash n="oracle.jdeveloper.model.J2eeSettings">
-      <value n="j2eeWebAppName" v="Application2-Project1-webapp"/>
-      <value n="j2eeWebContextRoot" v="Application2-Project1-context-root"/>
+      <value n="j2eeWebAppName" v="Application2-artifact.id-webapp"/>
+      <value n="j2eeWebContextRoot" v="Application2-artifact.id-context-root"/>
    </hash>
    <hash n="oracle.jdeveloper.model.PathsConfiguration">
       <hash n="javaContentSet">
@@ -302,5 +301,4 @@
          </list>
       </hash>
    </hash>
-   <value n="SCA_BPEL_FOLDER_PROPERTY_NAME" v="BPEL/"/>
 </jpr:project>
